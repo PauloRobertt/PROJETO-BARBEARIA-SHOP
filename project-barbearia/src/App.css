@@ -1,5 +1,5 @@
 .secao-limitada{
-    width: 58%;
+    width: 65%;
 }
 
 *{
@@ -7,4 +7,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (min-width:375px) and (max-width:1024px){
+    .secao-limitada{
+        width: 100%;
+    }
 }

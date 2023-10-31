@@ -26,7 +26,7 @@ header{
 }
 
 .tema-escuro{
-    background-color: black;
+    background-color: #242424;
     color: white;
 }
 
@@ -61,26 +61,52 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 50px;
+}
+
+.secao-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .conteudo{
-    font-family: Fonte Poppis;
-    gap: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap: 20px;
+    font-family: 'Poppis';
     text-align: center;
-    padding: 50px 0
 }
 
-.conteudo p:first-of-type{
+.conteudo .primeiro-paragrafo{
     font-weight: bold;
 }
 
-.conteudo p:last-of-type{
+.conteudo .assinatura{
     color: #B2987D;
     font-family: 'Great Vibes', cursive;
     font-weight: 500;
     font-size: 50px;
+    padding: 20px;
+}
+
+@media screen and (max-width:375px){
+    .secao-topo{
+        padding: 0 20px;
+    }
+
+    .secao-conteudo{
+        width:80%;
+    }
+    
+}
+
+@media screen and (min-width:376px) and (max-width:1024px){
+    .secao-topo{
+        padding: 0 20px;
+    }
+
+    .secao-conteudo{
+        width:95%;
+    }
 }
