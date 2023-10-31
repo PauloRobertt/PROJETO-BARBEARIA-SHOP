@@ -1,17 +1,36 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './style.css';
 
 export default function LandingPage(){
+
+    const corDeFundoBranco = 'tema-claro';
+    const corDeFundoEscuro = 'tema-escuro';
+
+    const [estiloAtualizado,setEstiloAtualizado] = useState('tema-claro');
+
+    function mudarTema(){
+        if(estiloAtualizado === corDeFundoBranco){
+            setEstiloAtualizado(corDeFundoEscuro)
+        }else{
+            setEstiloAtualizado(corDeFundoBranco)
+        }
+    }
+
     return(
-        <div>
-            <header>
-                <img className='img-logo' src="assets/barbearia-logo.png" alt="logo"/>
-                <img className='tema-claro' src="assets/moon.png" alt="logo"/>
+        <div className='container'>
+            <header className={estiloAtualizado}>
+                <div className='secao-limitada secao-topo'>
+                    <img className='img-logo' src="assets/barbearia-logo.png" alt="logo"/>
+                    <button onClick={mudarTema} className='modo-tema'>
+                        <img className='img-claro' src="assets/moon.png" alt="logo"/>
+                        <p>Light</p>
+                    </button>
+                </div>
             </header>
-            <main>
+            <main className={estiloAtualizado}>
                 <div className='img-banner'>
                 </div>
-                <div className='conteudo'>
+                <div className='secao-limitada conteudo'>
                     <h1>Bem-vindo a Barber Shop</h1>
                     <p>
                         Nossa barbearia sempre oferece profissionais de qualidade e estamos prontos para lidar com suas maiores expectativas.

@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-logo{
+    width: 70px;
+    height: 70px;
+}
+
+.tema-claro{
+    background-color: white;
+    color: black;
+}
+
+.tema-escuro{
+    background-color: black;
+    color: white;
+}
+
+.img-claro{
+    width: 25px;
+    height: 25px;
+}
+
+.modo-tema{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: #B2987D 1px solid;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 30px;
+}
+
+.img-banner{
+    height: 40vh;
+    width: 100%;
+    background-image: url("/public/assets/banner-barbearia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo{
+    font-family: Fonte Poppis;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0
+}
+
+.conteudo p:first-of-type{
+    font-weight: bold;
+}
+
+.conteudo p:last-of-type{
+    color: #B2987D;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 500;
+    font-size: 50px;
+}
+
