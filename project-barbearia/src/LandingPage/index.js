@@ -21,9 +21,9 @@ export default function LandingPage(){
             <header className={estiloAtualizado}>
                 <div className='secao-limitada secao-topo'>
                     <img className='img-logo' src="assets/barbearia-logo.png" alt="logo"/>
-                    <button onClick={mudarTema} className='modo-tema'>
-                        <img className='img-claro' src="assets/moon.png" alt="logo"/>
-                        <p>Light</p>
+                    <button onClick={mudarTema} className={estiloAtualizado == corDeFundoEscuro ? 'tema-escuro' : 'tema-claro'}>
+                        <img className='img' src={estiloAtualizado == corDeFundoEscuro ? 'assets/sun.png' : 'assets/moon.png'} alt="logo"/>
+                        {estiloAtualizado == corDeFundoEscuro ? 'Light' : 'Dark'}
                     </button>
                 </div>
             </header>

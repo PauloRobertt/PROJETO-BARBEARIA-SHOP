@@ -30,12 +30,12 @@ header{
     color: white;
 }
 
-.img-claro{
+.img{
     width: 25px;
     height: 25px;
 }
 
-.modo-tema{
+header button{
     width: 75px;
     display: flex;
     align-items: center;
@@ -84,4 +84,3 @@ main{
     font-weight: 500;
     font-size: 50px;
 }
-
