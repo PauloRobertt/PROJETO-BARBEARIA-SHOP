@@ -4,6 +4,12 @@ Projeto simples com intuito de criar uma Landing Page com a funcionalidade de al
 A landing page será autocontida, ou seja, não haverá navegação para outras páginas.
 
 O projeto foi desenvolvido com total responsividade, funcionando perfeitamente em dispositivos móveis, tablets e desktops.
+
+## Tecnologias Utilizadas
+- Html
+- Css
+- React JS
+
 ## Visualização da Página
 
 Acesse o projeto clicando no link a seguir -> https://projeto-babearia-shop.vercel.app
