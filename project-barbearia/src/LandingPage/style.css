@@ -45,6 +45,7 @@ header button{
     font-weight: bold;
     padding: 6px;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .img-banner{
