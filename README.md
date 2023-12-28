@@ -10,6 +10,8 @@ O projeto foi desenvolvido com total responsividade, funcionando perfeitamente e
 - Css
 - React JS
 
-## Visualização da Página
+## Acesso
 
-Acesse o projeto clicando no link a seguir -> https://projeto-babearia-shop.vercel.app
+Você pode acessar o projeto através deste link. O deploy do projeto foi realizado através da plataforma Vercel.
+
+<a href="https://projeto-babearia-shop.vercel.app"> 💻Link para acesso <a/>
