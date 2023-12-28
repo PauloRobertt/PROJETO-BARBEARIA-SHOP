@@ -14,4 +14,4 @@ O projeto foi desenvolvido com total responsividade, funcionando perfeitamente e
 
 Você pode acessar o projeto através deste link. O deploy do projeto foi realizado através da plataforma Vercel.
 
-<a href="https://projeto-babearia-shop.vercel.app"> 💻Link para acesso <a/>
+<a href="https://projeto-babearia-shop.vercel.app" target="_blank"> 💻Link para acesso <a/>
